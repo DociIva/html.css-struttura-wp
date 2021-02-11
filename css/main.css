@@ -48,14 +48,13 @@ header{
     background: rgb(54, 140, 238);
 }
 
-
 /*MAIN CONTENT*/
 main .sidebar,
 main .main-content,
 main .widgets {
     float: left;
 }
- 
+
 main .sidebar,
 main .widgets {
     width: 28%;
@@ -71,8 +70,6 @@ main .main-content{
     margin-bottom: 10px;
     background: rgb(54, 140, 238);
 }
-
-
 /*FOOTER*/
 footer{
     height: 50px;
