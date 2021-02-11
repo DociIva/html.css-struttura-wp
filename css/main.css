@@ -10,6 +10,15 @@ body{
     font-family: sans-serif;
 }
 
+
+/*UTILITY*/
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
 /*HEADER*/
 header{
     height: 120px;   /*fake content*/
@@ -22,36 +31,34 @@ header{
     margin-bottom: 10px;
     background: yellow;
 }
+/*TITLE MAIN*/
 .title-main{
     height: 100px;
     margin-bottom: 10px;
     background: rgb(54, 140, 238);
 }
-.sidebar{
-    height: 200px;
-    margin-bottom: 10px;
-    background: rgb(54, 140, 238);
 
-}
-.main-content{
-    height: 400px;
-    margin-bottom: 10px;
-    background: rgb(54, 140, 238);
+
+/*MAIN CONTENT*/
+main .sidebar,
+main .main-content,
+main .widgets {
+    float: left;
 }
  
-.widgets{
-    height: 200px;
-    margin-bottom: 10px;
-    background: rgb(54, 140, 238) ;
+main .sidebar,
+main .widgets {
+    width: 28%;
+    height: 300px;
+    background:  rgb(54, 140, 238);
 }
-
-
-
-
- /*MAIN CONTENT*/
-
-
-
+main .main-content{
+    width: 40%;
+    height: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+    background: rgb(54, 140, 238);
+}
 
 
 /*FOOTER*/
@@ -59,3 +66,42 @@ footer{
     height: 50px;
     background: violet;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
