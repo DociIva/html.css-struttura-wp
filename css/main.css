@@ -5,18 +5,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: sans-serif;
 }
+
 /*HEADER*/
 header{
-    height: 100px;  /*fake content*/
+    height: 120px;   /*fake content*/
     margin-bottom: 10px;
     background: plum;
 }
-
-nav{
-    height: 300px;
+/*IMAGE SECTION*/
+.image{
+    height: 500px;
     margin-bottom: 10px;
-    background: rgb(226, 226, 5);
+    background: yellow;
+}
+.title-main{
+    height: 100px;
+    margin-bottom: 10px;
+    background: rgb(54, 140, 238);
+}
+.sidebar{
+    height: 200px;
+    margin-bottom: 10px;
+    background: rgb(54, 140, 238);
+
+}
+.main-content{
+    height: 400px;
+    margin-bottom: 10px;
+    background: rgb(54, 140, 238);
+}
+ 
+.widgets{
+    height: 200px;
+    margin-bottom: 10px;
+    background: rgb(54, 140, 238) ;
+}
+
+
+
+
+ /*MAIN CONTENT*/
+
+
+
+
+
+/*FOOTER*/
+footer{
+    height: 50px;
+    background: violet;
 }
