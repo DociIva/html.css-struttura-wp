@@ -11,6 +11,16 @@ body{
 }
 
 
+main{
+    background: rgb(57, 57, 250);
+}
+ 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
 /*UTILITY*/
 .clearfix::after{
     content: '';
@@ -22,19 +32,19 @@ body{
 /*HEADER*/
 header{
     height: 120px;   /*fake content*/
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background: plum;
 }
 /*IMAGE SECTION*/
 .image{
     height: 500px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background: yellow;
 }
 /*TITLE MAIN*/
 .title-main{
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background: rgb(54, 140, 238);
 }
 
@@ -49,14 +59,16 @@ main .widgets {
 main .sidebar,
 main .widgets {
     width: 28%;
-    height: 300px;
+    height: 290px;
+    margin-bottom: 10px; ;
     background:  rgb(54, 140, 238);
 }
 main .main-content{
     width: 40%;
-    height: 300px;
+    height: 290px;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 10px;
     background: rgb(54, 140, 238);
 }
 
@@ -64,6 +76,7 @@ main .main-content{
 /*FOOTER*/
 footer{
     height: 50px;
+    margin-top: 10px;
     background: violet;
 }
 
