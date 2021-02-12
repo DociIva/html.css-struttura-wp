@@ -9,16 +9,19 @@
 body{
     font-family: sans-serif;
 }
+  
+ 
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
 
 
 main{
     background: rgb(57, 57, 250);
 }
  
-.container{
-    width: 1000px;
-    margin: 0 auto;
-}
 
 
 /*UTILITY*/
@@ -32,7 +35,7 @@ main{
 /*HEADER*/
 header{
     height: 120px;   /*fake content*/
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background: plum;
 }
 /*IMAGE SECTION*/
@@ -41,6 +44,7 @@ header{
     margin-bottom: 20px;
     background: yellow;
 }
+
 /*TITLE MAIN*/
 .title-main{
     height: 100px;
