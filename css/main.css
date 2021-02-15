@@ -1,93 +1,68 @@
-/*Gener style*/
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    font-family: sans-serif;
-}
-  
- 
-.container{
-    width: 1000px;
-    margin: 0 auto;
+    }
     
-}
-
-
-main{
-    background: rgb(57, 57, 250);
-}
- 
-
-
-/*UTILITY*/
-.clearfix::after{
-    content: '';
-    display: table;
-    clear: both;
-
-}
-
-/*HEADER*/
-header{
-    height: 120px;   /*fake content*/
-    margin-bottom: 30px;
-    background: plum;
-}
-/*IMAGE SECTION*/
-.image{
-    height: 500px;
-    margin-bottom: 20px;
-    background: yellow;
-}
-
-/*TITLE MAIN*/
-.title-main{
-    height: 100px;
-    margin-bottom: 20px;
-    background: rgb(54, 140, 238);
-}
-
-/*MAIN CONTENT*/
-main .sidebar,
-main .main-content,
-main .widgets {
-    float: left;
-}
-
-main .sidebar,
-main .widgets {
-    width: 28%;
-    height: 290px;
-    margin-bottom: 10px; ;
-    background:  rgb(54, 140, 238);
-}
-main .main-content{
-    width: 40%;
-    height: 290px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10px;
-    background: rgb(54, 140, 238);
-}
-/*FOOTER*/
-footer{
-    height: 50px;
-    margin-top: 10px;
-    background: violet;
-}
-
-
-
-
-
-
-
-
+    body{
+      font-family: sans-serif;
+    }
+    /*UIILITY*/
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    
+    }
+    
+    .clearfix::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+    
+    /*HEADER*/
+    header{
+        height: 120px;
+        background: pink;
+        margin-bottom: 40px;
+    }
+    
+    /*YOGA IMAGE*/
+    .yoga{
+        height: 500px;
+        background: gold;
+        margin-bottom: 40px;
+    }
+    
+    /*LEADERSHIP*/
+    .leadership{
+        margin-bottom: 20px;
+        background: dodgerblue;
+    
+    }
+    
+    .leadership .heading{
+        height: 60px;
+        background: lightblue;
+        margin-bottom: 40px;
+    }
+    .leadership .blocks .blo{
+        float: left;
+        width: 20%;
+        height: 600px;
+        margin-bottom: 20px;
+        background: lightblue;
+    }
+    
+    .leadership .blocks .blo:nth-child(2){
+        width: 56%;
+        margin: 0 2%;
+    }
+     footer{
+         height: 60px;
+         background: violet;
+     }
+    
 
 
 
